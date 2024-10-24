@@ -12,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: python3.9.20-slim
+      image: python3.9.20
     steps:
       - name: Checkout
         uses: actions/checkout@v3
